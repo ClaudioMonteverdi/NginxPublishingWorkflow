@@ -1,4 +1,9 @@
 # Setting Up Application Workflow Tool
+
+Original Development Provided by:
+AgaMatrix, http://www.agamatrix.com
+The Atom Group http://www.theatomgroup.com/
+
 1. Clone Repository
 2. Run `composer install`
 3. Create .env.php file with the following:
@@ -135,7 +140,7 @@ Published releases are displayed in a second table below current releases, and d
 
 #Known Issues/Caveats
 * Deleting Users or Roles will cause issues when data is queried. Soft deleting is implemented on the database level for Users and Roles, however the querying functionality is not yet built.
-* URLs in revisions must match the domain of this application. This is achieved using the vagrant configuration included in the agamatrix-box repository, or via the nginx configuration files 
+* URLs in revisions must match the domain of this application. This is achieved using the vagrant configuration included in the local repository, or via the nginx configuration files 
 
 
 
